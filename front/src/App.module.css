@@ -1,0 +1,30 @@
+.section{
+  width: 100%;
+  height: 100%;
+  padding: 4rem;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10rem;
+  background: var(--color-grayDark);
+  color: var(--color-white);
+}
+
+.container{
+  width: var(--size-form);
+  gap: 1rem;
+}
+
+.form{
+  height: auto;
+  padding: 4rem 2rem;
+  border-radius: var(--border-radius);
+  border: 0.125rem solid var(--color-grayLight);
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
